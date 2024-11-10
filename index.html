@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=div, initial-scale=1.0">
+        <title>Document</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+            integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+                integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div class="center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="circle">1</div>
+                        <h6>Patient Profile</h6>
+                    </div>
+                    <div class="vartical"></div>
+                    <div class="col-9">
+                        <h5>Enter patient's weight</h5>
+                        <input type="number" name="number" value = "" id="weight" >
+                        <div class="btn-group btn-group-lg">
+                            <button type="button" class="btn btn purpleBtn" onclick="pound()">lb</button>
+                            <button type="button" class="btn btn whiteBtn" onclick="kg()">kg</button>
+                        </div>
+                        <div id="result">PI Dose </div>
+                        <button class="btn btn-sm btnNext" onclick="doseCalc()">NEXT <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="weightDose.js"></script>
+    </body>
+</html>
